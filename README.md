@@ -4,4 +4,4 @@ The purpose of cache is to speed up memory accesses by storing recently used chu
 
 ### Cache replacement policies
 Least recently used (LRU):
-Discards least recently used items first. This algorithm requires keeping track of what was used and when, which is cumbersome. It requires "age bits" for cache lines, and tracks the least recently used cache line based on them. When a cache line is used, the age of the other cache lines changes. LRU is a family of caching algorithms, which includes 2Q by Theodore Johnson and Dennis Shasha[5] and LRU/K by Pat O'Neil, Betty O'Neil and Gerhard Weikum.
+Discards least recently used items first. This algorithm requires keeping track of what was used and when, which is cumbersome. It requires "age bits" for cache lines, and tracks the least recently used cache line based on them. When a cache line is used, the age of the other cache lines changes.
